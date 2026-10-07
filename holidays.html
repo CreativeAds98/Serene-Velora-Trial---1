@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Holidays | Serene Velora Holidays</title>
+<meta name="description" content="Browse proposed holiday ideas from Serene Velora Holidays, Coimbatore, and request a personalised itinerary.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Playfair+Display:ital,wght@0,600;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="sub">
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="site-header" id="header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html"><img src="assets/emblem.png" width="60" height="60" alt=""><span class="bn">Serene Velora<small>Holidays</small></span></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="holidays.html" aria-current="page">Holidays</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn-gold nav-cta" href="contact.html#enquire">Plan My Trip <span aria-hidden="true">&rarr;</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-hero"><div class="wrap"><h1>A proposed holiday collection</h1><p class="lead2">Illustrative catalogue concepts. Availability, duration and arrangements need confirmation.</p></div></section><section class="section wrap"><div class="filters"><label>Destination<select id="fDest"><option value="">All destinations</option><option>Kerala</option><option>Nilgiris</option><option>Goa</option><option>Bali</option><option>Singapore</option><option>Thailand</option></select></label><label>Holiday style<select id="fStyle"><option value="">Any style</option><option>Romantic Escapes</option><option>Family Holidays</option><option>Friends & Group Trips</option><option>Short Getaways</option></select></label></div><p id="count" role="status" aria-live="polite" class="note"></p><div class="cards" id="cat"><article class="card pk" data-dest="Kerala" data-style=""><div class="ph has-img" role="img" aria-label="Traditional thatched houseboat on calm backwaters lined with coconut palms" style="background-image:url(assets/img-kerala.webp)"></div><div class="card-b"><h3>Kerala Slow Escape</h3><p>Backwaters, green landscapes and a gentler pace for your next break.</p><p class="price">Request a Quote</p><a class="btn btn-navy" href="holiday-detail.html">Explore Kerala</a></div></article><article class="card pk" data-dest="Nilgiris" data-style="Short Getaways"><div class="ph has-img" role="img" aria-label="Tea-covered hills with morning mist at golden sunrise" style="background-image:url(assets/img-nilgiris.webp)"></div><div class="card-b"><h3>Nilgiris Weekend</h3><p>Fresh mountain air and scenic moments for a refreshing short escape.</p><p class="price">Request a Quote</p><a class="btn btn-navy" href="contact.html?destination=Nilgiris">Plan a Hill Escape</a></div></article><article class="card pk" data-dest="Goa" data-style=""><div class="ph has-img" role="img" aria-label="Golden sand beach with rolling waves, palm trees and a wooden boat" style="background-image:url(assets/img-goa.webp)"></div><div class="card-b"><h3>Goa Together</h3><p>Beach time, easy evenings and experiences to enjoy with your favourite people.</p><p class="price">Request a Quote</p><a class="btn btn-navy" href="contact.html?destination=Goa">Explore Goa</a></div></article><article class="card pk" data-dest="Bali" data-style="Romantic Escapes"><div class="ph has-img" role="img" aria-label="Pagoda-style temple on a lake with mountains behind at sunset" style="background-image:url(assets/img-bali.webp)"></div><div class="card-b"><h3>Bali for Two</h3><p>A romantic holiday idea blending nature, culture and time to unwind.</p><p class="price">Request a Quote</p><a class="btn btn-navy" href="contact.html?destination=Bali">Plan a Romantic Trip</a></div></article><article class="card pk" data-dest="Singapore" data-style="Family Holidays"><div class="ph has-img" role="img" aria-label="Marina Bay skyline at blue hour with a lit bridge and glowing reflections on the water" style="background-image:url(assets/img-singapore.webp)"></div><div class="card-b"><h3>Singapore Discovery</h3><p>A city holiday idea with memorable sights and experiences for different ages.</p><p class="price">Request a Quote</p><a class="btn btn-navy" href="contact.html?destination=Singapore">Explore Singapore</a></div></article><article class="card pk" data-dest="Thailand" data-style=""><div class="ph has-img" role="img" aria-label="Wooden longtail boat on turquoise water below limestone cliffs" style="background-image:url(assets/img-thailand.webp)"></div><div class="card-b"><h3>Thailand Escape</h3><p>A proposed mix of city discovery and coastal relaxation, tailored to your interests.</p><p class="price">Request a Quote</p><a class="btn btn-navy" href="contact.html?destination=Thailand">Build My Itinerary</a></div></article></div></section><section class="section navy"><div class="wrap band"><div><h2>Custom Itineraries</h2><p>Share your dates, interests and budget so we can discuss a journey that suits you.</p></div><a class="btn btn-gold" href="contact.html">Tell us your travel idea</a></div></section><section class="section wrap jsec" aria-labelledby="stepsH">
+  <div class="jhead reveal"><p class="eyebrow-j">The journey before your journey</p>
+    <div class="jhead-row"><h2 id="stepsH">Your next escape, beautifully planned.</h2><p class="jtag">Three simple steps.<br>A world of possibilities.</p></div></div>
+  <div class="jstage reveal">
+    <span class="ghost g1" aria-hidden="true">01</span><span class="ghost g2" aria-hidden="true">02</span><span class="ghost g3" aria-hidden="true">03</span>
+    <svg class="route jroute" viewBox="0 0 1672 560" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <path id="routePath" pathLength="1" d="M270 108 C 330 190, 420 300, 560 322 S 690 324, 740 336"/><path pathLength="1" style="transition-delay:1.2s" d="M791 338 C 880 300, 940 250, 1040 210 S 1160 165, 1196 154 S 1280 112, 1312 100"/>
+      <g class="rplane"><path transform="scale(2)" d="M18 0L4-3-2-16-6-16-3-3-14-2-16-7-19-7-17 0-19 7-16 7-14 2-3 3-6 16-2 16 4 3z" fill="#C9A25E"/><animateMotion dur="7s" begin="1.5s" repeatCount="indefinite" rotate="auto" path="M791 338 C 880 300, 940 250, 1040 210 S 1160 165, 1196 154 S 1280 112, 1312 100"/></g>
+    </svg>
+    <div class="jstep s1"><img class="jill" src="assets/step-1.webp" alt="" width="300" height="220" loading="lazy"><span class="pin" aria-hidden="true">01</span><div class="jtext"><h3>Share your idea</h3><p>Tell us where you want to go, when you'd like to travel, and who's joining you.</p></div></div>
+    <div class="jstep s2"><img class="jill" src="assets/step-2.webp" alt="" width="300" height="220" loading="lazy"><span class="pin" aria-hidden="true">02</span><div class="jtext"><h3>Shape your journey</h3><p>Explore a personalised itinerary and refine the details with our team.</p></div></div>
+    <div class="jstep s3"><img class="jill" src="assets/step-3.webp" alt="" width="300" height="220" loading="lazy"><span class="pin" aria-hidden="true">03</span><div class="jtext"><h3>Get ready to explore</h3><p>Confirm your arrangements and look forward to your holiday.</p></div></div>
+  </div>
+</section>
+<div class="jband"><div class="wrap jband-in"><p>Every great holiday starts with a conversation.</p><a class="btn btn-gold" href="contact.html#enquire">Start Planning <span aria-hidden="true">&rarr;</span></a></div></div></main>
+
+<footer class="footer">
+  <div class="wrap foot">
+    <div><img src="assets/logo.jpg" width="240" height="193" alt="Serene Velora Holidays logo: gold SV emblem with aircraft, palms and mountains" loading="lazy"></div>
+    <nav aria-label="Footer"><a href="index.html">Home</a><a href="destinations.html">Destinations</a><a href="holidays.html">Holidays</a><a href="about.html">About Us</a><a href="journal.html">Travel Journal</a><a href="contact.html">Contact</a></nav>
+    <div class="contact">
+      <p>Call Us: [verified phone number to be added]</p>
+      <p>WhatsApp Us: [verified number to be added]</p>
+      <p>Email Us: [verified email to be added]</p>
+      <p>Visit Our Office: [verified address, hours and map to be added]</p>
+      <p>Social links: [to be added]</p>
+    </div>
+  </div>
+  <div class="wrap legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="cancellation.html">Cancellation / Refund</a></div>
+</footer>
+<script src="js/reviews.js"></script>
+<script src="js/main.js"></script>
+<script src="js/chat.js"></script>
+</body>
+</html>
