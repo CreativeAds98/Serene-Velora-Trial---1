@@ -131,6 +131,7 @@ form label{margin-bottom:14px}
 
 .footer{background:#040c18;color:#d6dbe3;padding:56px 0 24px}
 .foot{display:grid;gap:32px}
+.footer h3{color:#fff;font-size:1.2rem;margin:0 0 10px;font-family:var(--serif);font-weight:500}
 .footer nav{display:flex;flex-direction:column;gap:8px}
 .footer a{text-decoration:none}.footer a:hover{color:var(--gold)}
 .contact p{margin:0 0 8px;font-size:14px}
